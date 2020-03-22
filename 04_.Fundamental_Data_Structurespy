@@ -1,0 +1,49 @@
+print('test')
+
+# alle Variablen in Python sind automatischObjekte
+# Strings können mit einfachen oder doppelten Anführungsstrichen geschreiben werden
+str = 'Enki'
+str_2 = "Enki"
+
+# Integers sind ganze positive Zahlen außer sie werden negativ definiert
+
+int = -32
+
+# Float sind Komma Zahlen
+float = 7.1
+
+print(type (float))
+# Ausgabe gibt: 7.1
+
+# Es gibt drei sewuenzielle Daten Typen: list, range, tuple
+# Bei tuple können alle Datentüpen gespeichert werden
+
+myTuple = ("first", 13, "random")
+print(myTuple[2])
+
+# Tuples können nicht nachträglich geändert werden
+# Tuples können auch mehrere Bereiche haben. z.B.
+a, *b, c = (1,2,3,4,5,6,7)
+print(b)
+# Es wird (2,3,4,5,6) ausgegeben
+
+# Listen
+
+# Listen können jeden Typen enthalten und können eine unbgrenzte Anzahl an Variablen halten.
+# mit .append werden Daten der Liste hinzu gefügt
+
+pyList = []
+pyList.append(11)
+pyList.append(31)
+pyList.append(23)
+pyList.append("Test")
+
+print(pyList[2])
+
+# um alle oder mehrere Inhalte der List abzufragen muss eine for schleife gebildet werden ->
+
+print("In der liste sind alle die Daten enthalten")
+for x in pyList:
+    print(x)
+
+# Dictionarys
